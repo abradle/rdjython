@@ -1,0 +1,7 @@
+source /root/.bashrc
+cd $RDBASE
+mkdir build
+cd build
+cmake -D RDK_BUILD_SWIG_WRAPPERS=ON ..
+make
+make install
