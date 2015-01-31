@@ -7,5 +7,5 @@ mkdir build
 cd build
 cmake -D RDK_BUILD_INCHI_SUPPORT=ON -D RDK_BUILD_SWIG_WRAPPERS=ON ..
 make
+sed -i -- 's/javadoc/javadoc -Xdoclint:none/g'  /RDKit/rdkit/build/Code/JavaWrappers/gmwrapper/CMakeFiles/BuildJavaWrapperTests.dir/build.make
 make install
-
