@@ -1,5 +1,5 @@
 # RDJython docker file
-FROM ubuntu:14.04
+FROM dockerfile/java:oracle-java8
 MAINTAINER Anthony Bradley <anthony.richard.bradley@gmail.com>
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-get update
