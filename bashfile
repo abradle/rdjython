@@ -5,7 +5,7 @@
 
 
 export RDBASE=/RDKit/rdkit
-export LD_LIBRARY_PATH=$RDBASE/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$RDBASE/lib:$RDBASE/Code/JavaWrappers/gmwrapper:$LD_LIBRARY_PATH
 export PYTHONPATH=$RDBASE/lib:$RDBASE:PYTHONPATH
 
 
